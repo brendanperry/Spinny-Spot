@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start_Screen.unity
+    guid: 8d8b51b6e059cc14bbb5ff45e57dd18e
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 4278734cbd94adb4799fde821bd8626a
+  - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 1eb2a510ebab00b44a0b2bf4865623a0
+  - enabled: 1
+    path: Assets/Scenes/Random_Reward.unity
+    guid: 498ae46ac19ec414092a854f3f4632c3
+  - enabled: 1
+    path: Assets/Scenes/Shop V2.unity
+    guid: 9e051a24c0161bf41ab39ebf5f959e46
+  - enabled: 1
+    path: Assets/Scenes/Pentagon.unity
+    guid: fbe18aa20d25e43069979720e9f2e629
+  - enabled: 1
+    path: Assets/Scenes/Triangle.unity
+    guid: e918b0e581af04beaa769ddf359d56d9
+  - enabled: 1
+    path: Assets/Scenes/Arcade.unity
+    guid: 6bf9ee4de00ce4346ae766a2ddf8104c
+  - enabled: 1
+    path: Assets/Scenes/Square.unity
+    guid: 2480d5b9f0e184ea0b70938b676c2fec
+  - enabled: 1
+    path: Assets/Scenes/Challenges.unity
+    guid: 593ad3e4bebd84e42aa4a5051250a7db
+  - enabled: 1
+    path: Assets/Scenes/Bomb.unity
+    guid: d1827c74ce439417aa248bb4793d1734
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: ab93d4ef7a64a4a52b513b0840ac763e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 8a86b34277503495cb5d4c32c5315ea5
+  - enabled: 1
+    path: Assets/Scenes/Volume.unity
+    guid: 0f4f2bb015fd847ec8049841f92fdcfc
+  m_configObjects: {}

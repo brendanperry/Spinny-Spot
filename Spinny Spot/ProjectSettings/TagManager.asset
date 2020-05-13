@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Star
+  - Bomb
+  - 100 coins
+  - Selected
+  - Select
+  - PlayerArcade
+  - 250 coins
+  - 1000 coins
+  - Watch 5 videos
+  - $0.99
+  - Share 5 times
+  - 500 coins
+  - 300 coins
+  - 200 coins
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Circle
+    uniqueID: 967006407
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
