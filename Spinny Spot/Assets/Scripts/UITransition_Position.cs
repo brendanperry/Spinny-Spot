@@ -43,4 +43,8 @@ public class UITransition_Position : MonoBehaviour {
             LeanTween.moveLocal(this.gameObject, startingPosition, animationTime);
         }
     }
+
+    public void Reset() {
+        gameObject.transform.localPosition = startingPosition;
+    }
 }

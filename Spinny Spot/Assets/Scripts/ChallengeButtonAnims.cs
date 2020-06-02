@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ChallengeButtonAnims : MonoBehaviour {
 	public GameObject currency;
-	public GameObject endless;
+	public UITransition_Position endless;
+	public UITransition_Position endless2;
 	public GameObject home;
 	public GameObject triangle;
 	public GameObject square;
@@ -21,5 +22,25 @@ public class ChallengeButtonAnims : MonoBehaviour {
 		square.GetComponent<UITransition_Position>().AnimateReverse();
 		pentagon.GetComponent<UITransition_Position>().AnimateReverse();
 		bomb.GetComponent<UITransition_Position>().AnimateReverse();
+	}
+
+	void Start() {
+		StartCoroutine(EndlessAnimate());
+	}
+
+	IEnumerator EndlessAnimate() {
+		endless.Reset();
+		endless.Animate();
+		yield return new WaitForSeconds(3);
+		endless2.Reset();
+		endless2.Animate();
+		yield return new WaitForSeconds(3);
+		endless.Reset();
+		endless.Animate();
+		yield return new WaitForSeconds(3);
+		endless2.Reset();
+		endless2.Animate();
+		yield return new WaitForSeconds(3);
+		StartCoroutine(EndlessAnimate());
 	}
 }

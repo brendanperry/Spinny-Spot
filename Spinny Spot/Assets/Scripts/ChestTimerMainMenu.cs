@@ -26,10 +26,16 @@ public class ChestTimerMainMenu : MonoBehaviour {
     // Update currentTime every 60 seconds
     void GetCurrentTime() {
         timeWhenOpenedLastChest = SecurePlayerPrefs.GetString("timeWhenOpenedLastChest", "17:5:1:0:0");
-        StartCoroutine(GetTime());
+        GetTime();
     }
 
-    // Sets the current time
+    void GetTime() {
+        DateTime time = System.DateTime.Now;
+        currentTime = time.Year + ":" + time.Month + ":" + time.Day + ":" + time.Hour + ":" + time.Minute + ":" + 0;
+        CalculateTimePassed();
+    }
+
+    /* Sets the current time
     IEnumerator GetTime() {
         print("GET TIME");
         WWW www = new WWW(url);
@@ -45,7 +51,7 @@ public class ChestTimerMainMenu : MonoBehaviour {
                 CalculateTimePassed();
             }
         }
-    }
+    }*/
 
     // Variables specific to the calc function
     int prevYear, year;

@@ -121,7 +121,7 @@ public class UltimateGameManager : MonoBehaviour {
                 Debug.Log(result ? "Reported achievement" : "Failed to report achievement");
             });
 
-            iOSReviewRequest.Request();
+            //iOSReviewRequest.Request();
             print("Request native review");
         } else if (level == 25) {
             Social.ReportProgress("25levels", 100, (result) => {

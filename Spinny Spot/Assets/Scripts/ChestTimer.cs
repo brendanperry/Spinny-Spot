@@ -9,7 +9,7 @@ using SecPlayerPrefs;
 
 public class ChestTimer : MonoBehaviour {
 
-    private string url = "https://brendanperry.me/dateandtime.php";
+    //private string url = "https://brendanperry.me/dateandtime.php";
 
     [SerializeField]
     private int minutesRequired = 10;
@@ -39,10 +39,16 @@ public class ChestTimer : MonoBehaviour {
     // Update currentTime every 60 seconds
     void GetCurrentTime() {
         timeWhenOpenedLastChest = SecurePlayerPrefs.GetString("timeWhenOpenedLastChest", "17:5:1:0:0");
-        StartCoroutine(GetTime());
+        GetTime();
+        CalculateTimePassed();
     }
 
-    // Sets the current time
+    void GetTime() {
+        DateTime time = System.DateTime.Now;
+        currentTime = time.Year + ":" + time.Month + ":" + time.Day + ":" + time.Hour + ":" + time.Minute + ":" + 0;
+    }
+
+    /* Sets the current time
     IEnumerator GetTime() {
         print("try");
         WWW www = new WWW(url);
@@ -58,7 +64,7 @@ public class ChestTimer : MonoBehaviour {
                 CalculateTimePassed();
             }
         }
-    }
+    }*/
 
     // Variables specific to the calc function
     int prevYear, year;

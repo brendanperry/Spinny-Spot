@@ -105,7 +105,7 @@ public class UnlockV2 : MonoBehaviour {
         SecurePlayerPrefs.SetInt("unlockCount", unlockCount);
 
         if (unlockCount == 2) {
-            iOSReviewRequest.Request();
+            //iOSReviewRequest.Request();
             print("Show Review");
         } else if (unlockCount == 5) {
             Social.ReportProgress("5balls", 100, (result) => {

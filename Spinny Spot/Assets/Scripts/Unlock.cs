@@ -78,7 +78,7 @@ public class Unlock : MonoBehaviour {
         SecurePlayerPrefs.SetInt("unlockCount", unlockCount);
 
         if(unlockCount >= 2 && SecurePlayerPrefs.GetInt("NativeReview", 0) == 0 && SecurePlayerPrefs.GetInt("UnlockReview", 0) == 0) {
-            iOSReviewRequest.Request();
+            //iOSReviewRequest.Request();
             SecurePlayerPrefs.SetInt("UnlockReview", 1);
             SecurePlayerPrefs.SetInt("NativeReview", 1);
             print("Show Review");
