@@ -45,7 +45,7 @@ public class ChestTimer : MonoBehaviour {
 
     void GetTime() {
         DateTime time = System.DateTime.Now;
-        currentTime = time.Year + ":" + time.Month + ":" + time.Day + ":" + time.Hour + ":" + time.Minute + ":" + 0;
+        currentTime = time.Year + ":" + time.Month + ":" + time.Day + ":" + time.Hour + ":" + time.Minute;
     }
 
     /* Sets the current time

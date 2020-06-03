@@ -31,7 +31,7 @@ public class ChestTimerMainMenu : MonoBehaviour {
 
     void GetTime() {
         DateTime time = System.DateTime.Now;
-        currentTime = time.Year + ":" + time.Month + ":" + time.Day + ":" + time.Hour + ":" + time.Minute + ":" + 0;
+        currentTime = time.Year + ":" + time.Month + ":" + time.Day + ":" + time.Hour + ":" + time.Minute;
         CalculateTimePassed();
     }
 
@@ -65,7 +65,7 @@ public class ChestTimerMainMenu : MonoBehaviour {
     // Calculates the time in minutes between the time since the last chest was opened and the time the function is being ran
     void CalculateTimePassed() {
 
-        print("CALC");
+        print(timeWhenOpenedLastChest);
         int.TryParse(timeWhenOpenedLastChest.Split(':')[0], out prevYear);
         int.TryParse(timeWhenOpenedLastChest.Split(':')[1], out prevMonth);
         int.TryParse(timeWhenOpenedLastChest.Split(':')[2], out prevDay);
