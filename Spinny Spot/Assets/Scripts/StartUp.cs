@@ -42,7 +42,7 @@ public class StartUp : MonoBehaviour {
         Advertisement.Initialize("2677701", testMode);
 
         	// Use this for initialization
-		OneSignal.StartInit("9778f7d3-1a67-4f53-962a-563943835df7")
+		OneSignal.StartInit("4a1c6f9e-b413-4d4c-9d35-1b3671a50812")
             .Settings(new Dictionary<string, bool>() {
                 { OneSignal.kOSSettingsAutoPrompt, false },
                 { OneSignal.kOSSettingsInAppLaunchURL, true } })

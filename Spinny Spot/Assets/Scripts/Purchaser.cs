@@ -142,10 +142,10 @@ namespace CompleteProject
                     // no purchases are available to be restored.
                     Debug.Log("RestorePurchases continuing: " + result + ". If no further messages, no purchases available to restore.");
                     
-                    MNPopup popup = new MNPopup ("Restore Complete", "All purchases restored");
-			            popup.AddAction ("Close", () => {Debug.Log("Ok action callback");});
-			            popup.AddDismissListener (() => {Debug.Log("dismiss listener");});
-			            popup.Show ();
+                    // MNPopup popup = new MNPopup ("Restore Complete", "All purchases restored");
+			        //     popup.AddAction ("Close", () => {Debug.Log("Ok action callback");});
+			        //     popup.AddDismissListener (() => {Debug.Log("dismiss listener");});
+			        //     popup.Show ();
 
                     Handheld.StopActivityIndicator();
                 });
@@ -156,10 +156,10 @@ namespace CompleteProject
                 // We are not running on an Apple device. No work is necessary to restore purchases.
                 Debug.Log("RestorePurchases FAIL. Not supported on this platform. Current = " + Application.platform);
 
-                MNPopup popup = new MNPopup ("Restore Failed", "Please check your internet connection");
-			            popup.AddAction ("Close", () => {Debug.Log("Ok action callback");});
-			            popup.AddDismissListener (() => {Debug.Log("dismiss listener");});
-			            popup.Show ();
+                // MNPopup popup = new MNPopup ("Restore Failed", "Please check your internet connection");
+			    //         popup.AddAction ("Close", () => {Debug.Log("Ok action callback");});
+			    //         popup.AddDismissListener (() => {Debug.Log("dismiss listener");});
+			    //         popup.Show ();
             }
         }
         

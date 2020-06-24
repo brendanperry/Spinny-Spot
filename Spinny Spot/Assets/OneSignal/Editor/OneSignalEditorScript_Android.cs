@@ -1,7 +1,7 @@
 ﻿/**
  * Modified MIT License
  * 
- * Copyright 2016 OneSignal
+ * Copyright 2018 OneSignal
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -36,81 +36,8 @@ using System.Collections.Generic;
 [InitializeOnLoad]
 public class OneSignalEditorScriptAndroid : AssetPostprocessor {
 
-   /// <summary>Instance of the PlayServicesSupport resolver</summary>
-   public static object svcSupport;
-
-   private static readonly string PluginName = "OneSignal";
-   
-   // Both are set to LATEST to ensure compability between other plugins.
-   // PLAY_SERVICES_VERSION   - Tested with versions 10.2.1 to 11.2.0
-   // ANDROID_SUPPORT_VERSION - Tested with versions 26.0.0 through 26.0.1
-   private static readonly string PLAY_SERVICES_VERSION = "+";
-   private static readonly string ANDROID_SUPPORT_VERSION = "+";
-
    static OneSignalEditorScriptAndroid() {
       createOneSignalAndroidManifest();
-      addGMSLibrary();
-   }
-
-   private static void addGMSLibrary() {
-      Type playServicesSupport = Google.VersionHandler.FindClass(
-         "Google.JarResolver", "Google.JarResolver.PlayServicesSupport");
-      if (playServicesSupport == null)
-         return;
-
-      svcSupport = svcSupport ?? Google.VersionHandler.InvokeStaticMethod(
-        playServicesSupport, "CreateInstance",
-        new object[] {
-                PluginName,
-                EditorPrefs.GetString("AndroidSdkRoot"),
-                "ProjectSettings"
-        });
-
-      Google.VersionHandler.InvokeInstanceMethod(
-         svcSupport, "DependOn",
-         new object[] {
-            "com.google.android.gms",
-            "play-services-gcm",
-            PLAY_SERVICES_VERSION
-         },
-         namedArgs: new Dictionary<string, object>() {
-             {"packageIds", new string[] { "extra-google-m2repository" } }
-         });
-
-      Google.VersionHandler.InvokeInstanceMethod(
-         svcSupport, "DependOn",
-         new object[] {
-            "com.google.android.gms",
-            "play-services-location",
-            PLAY_SERVICES_VERSION
-         },
-         namedArgs: new Dictionary<string, object>() {
-             {"packageIds", new string[] { "extra-google-m2repository" } }
-         });
-
-
-      Google.VersionHandler.InvokeInstanceMethod(
-         svcSupport, "DependOn",
-         new object[] {
-            "com.android.support",
-            "customtabs",
-            ANDROID_SUPPORT_VERSION
-         },
-         namedArgs: new Dictionary<string, object>() {
-             {"packageIds", new string[] { "extra-android-m2repository" } }
-         });
-         
-         
-      Google.VersionHandler.InvokeInstanceMethod(
-         svcSupport, "DependOn",
-         new object[] {
-            "com.android.support",
-            "support-v4",
-            ANDROID_SUPPORT_VERSION
-         },
-         namedArgs: new Dictionary<string, object>() {
-             {"packageIds", new string[] { "extra-android-m2repository" } }
-         });
    }
    
    // Copies `AndroidManifestTemplate.xml` to `AndroidManifest.xml`

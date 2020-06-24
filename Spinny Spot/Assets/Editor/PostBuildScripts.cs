@@ -103,7 +103,7 @@ public class PostBuildScripts {
             string projectPath = PBXProject.GetPBXProjectPath(path);
             PBXProject project = new PBXProject();
             project.ReadFromString(File.ReadAllText(projectPath));
-            string targetName = PBXProject.GetUnityTargetName();
+            string targetName = project.GetUnityFrameworkTargetGuid();
             string projectTarget = project.TargetGuidByName(targetName);
 
             AddFrameworks(project, projectTarget);

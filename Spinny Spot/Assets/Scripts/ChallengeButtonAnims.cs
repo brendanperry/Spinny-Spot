@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ChallengeButtonAnims : MonoBehaviour {
 	public GameObject currency;
-	public UITransition_Position endless;
-	public UITransition_Position endless2;
+	public GameObject endless;
+	public UITransition_Position endlessText;
+	public UITransition_Position endlessText2;
 	public GameObject home;
 	public GameObject triangle;
 	public GameObject square;
@@ -29,17 +30,17 @@ public class ChallengeButtonAnims : MonoBehaviour {
 	}
 
 	IEnumerator EndlessAnimate() {
-		endless.Reset();
-		endless.Animate();
+		endlessText.Reset();
+		endlessText.Animate();
 		yield return new WaitForSeconds(3);
-		endless2.Reset();
-		endless2.Animate();
+		endlessText2.Reset();
+		endlessText2.Animate();
 		yield return new WaitForSeconds(3);
-		endless.Reset();
-		endless.Animate();
+		endlessText.Reset();
+		endlessText.Animate();
 		yield return new WaitForSeconds(3);
-		endless2.Reset();
-		endless2.Animate();
+		endlessText2.Reset();
+		endlessText2.Animate();
 		yield return new WaitForSeconds(3);
 		StartCoroutine(EndlessAnimate());
 	}
