@@ -59,67 +59,67 @@
      <Compile Include="Assets\Plugins\UnityPurchasing\Editor\IAPButtonEditor.cs" />
      <None Include="Assets\Plugins\UnityPurchasing\Editor\IAPGeneratedCredentials.cs.template" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -317,76 +317,70 @@
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Monetization.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/UnityAds/UnityEngine.Monetization.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/UnityAds/UnityEngine.Monetization.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver_v1.2.124.0">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.124.0">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.IOSResolver_v1.2.124.0">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll</HintPath>
  </Reference>
  <Reference Include="UDP">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UDP/UDP.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UDP/UDP.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Purchasing.Common">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
  </Reference>
  <Reference Include="FacebookStore">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
  <Reference Include="OneSignalSDK_WP_WNS">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/OneSignal/Platforms/OneSignalSDK_WP_WNS.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Assets/OneSignal/Platforms/OneSignalSDK_WP_WNS.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/brendanperry/repos/Spinny Spot/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/brendanperry/repos/Spinny-Spot/Spinny Spot/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
